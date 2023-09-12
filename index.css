@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+  }
+
+  .grid-2 {
+    position: relative;
+  }
+
+  .sidebar {
+    margin-left: 15px;
+    margin-right: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .radiogroup {
+    margin-bottom: 0.7rem;
+  }
+
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 80%;
+  }
